@@ -36,7 +36,7 @@ fun main() {
         }
     }
 
-    // now I implemented Vehicle class
+    // now I implemented Vehicle class(that follows Liskov principle)
     list.forEach {
         println(it.getInteriorWidth())
     }
