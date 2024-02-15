@@ -1,3 +1,9 @@
+// This principle has 2 requirements:
+// "High-level modules should not depend on low-level modules. Both should depend on abstractions"
+// "Abstractions should not depend upon details. Details should depend upon abstractions"
+
+// This means that if you use a class insider another class, this class will be dependent of the class injected. This is what is called rigidity.
+
 
 // high level module
 class ProductCatalog {
