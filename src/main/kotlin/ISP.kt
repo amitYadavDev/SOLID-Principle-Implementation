@@ -1,3 +1,12 @@
+// Don't implement too fatty interface
+
+// This principle states that "The interface-segregation principle (ISP) states 
+// - that no client should be forced to depend on methods it does not use."
+
+// This means that if an interface becomes too fat, then it should be split into smaller 
+// - interfaces so that the client implementing the interface does 
+// - not implement methods that are of no use to it.
+
 // this interface is too fatty
 interface IMultiFunctional{
     fun print()
