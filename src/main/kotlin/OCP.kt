@@ -4,8 +4,8 @@
 // modules should be open for extension but not for modification."
 
 //This means that if we are required to add a new feature to the project,
-// it is good practice to not modify the existing code but rather write new code
-// that will be used by the existing code.
+// it is good practice to not modify the existing code but rather write new code in a seperate module
+// and that will be used by the existing code.
 
 class VehicleInsuranceCustomer1 {
     fun isLoyalCustomer(): Boolean {
