@@ -1,3 +1,6 @@
+// child classes should extend the behavior of the base class without changing its expected behavior.
+// means child classes should not break the behavior of parent classes.
+
 open class Vehicle {
     open fun getInteriorWidth(): Int {
        return 0
